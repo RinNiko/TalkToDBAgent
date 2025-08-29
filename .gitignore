@@ -1,0 +1,63 @@
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/.cache/
+frontend/.eslintcache
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+frontend/out/
+frontend/.vercel/
+
+# Python
+server/.venv/
+server/venv/
+server/env/
+server/__pycache__/
+server/.mypy_cache/
+server/.pytest_cache/
+server/.ruff_cache/
+server/.coverage
+server/.cache/
+server/**/*.pyc
+server/**/*.pyo
+server/**/*.pyd
+
+# Databases and local state
+*.db
+*.sqlite
+*.sqlite3
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Docker
+**/.env.docker*
+
+# Environment files (do not commit secrets)
+.env
+.env.*
+*.env
+*.env.*
+server/.env
+frontend/.env
+frontend/.env.local
+frontend/.env.*
+
+# Misc
+coverage/
+dist/
+build/
+.tmp/
+.temp/
